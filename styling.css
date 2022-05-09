@@ -1,0 +1,200 @@
+html{
+    background-color:hsl(225, 100%, 98%);
+}
+main{
+    width: 90%;
+    margin-left: 5%;
+    height: 90vh;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 50px 50px 0px 0px;
+}
+img{
+    width:100%;
+    border-radius: 50px 50px 0px 0px;
+    border-bottom: 10%;
+}
+h1{
+    text-align:center;
+}
+.p1{
+    text-align:center;
+}
+.annual-plan{
+    display:flex;
+    width:90%;
+    margin-bottom: 5%;
+   border-radius: 10%;
+    margin-left: 5%;
+    background-color: aliceblue;
+}
+#music{
+    width: 90%;
+    padding-left: 20%;
+    padding-top: 35%;
+}
+.space{
+    width: 20px;
+}
+#annual{
+    font-weight: bold;
+    text-align: center;
+}
+#annual > span{
+    font-weight: 300;
+}
+#amount{
+   
+}
+#change{
+    padding-left: 70%;
+    color:blue;
+    text-decoration: underline;
+    padding-top: 20%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.proceedPayment{
+    width:90%;
+    color:white;
+    background-color:blue;
+    margin: 25px auto;
+    height: 7vh;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5%;
+    box-shadow: 50%;
+    font-weight: bold;
+   
+}
+.cancelOrders{
+    font-size: bold;
+    font-weight: 700;
+    text-align: center;  
+}
+@media(min-width: 480px){
+    .space{
+        width: 50px;
+    }
+    #change{
+        padding-left: 50%;
+        color:blue;
+        text-decoration: underline;
+        padding-top: 20%;
+        font-weight: bold;
+    }
+}
+@media(min-width: 768px){
+    main{
+        width: 40%;
+        margin: auto;
+        height: 90vh;
+        margin-top: 2%;
+        background-color: white;
+        border-radius: 50px 50px 0px 0px;
+    }
+    img{
+        width:100%;
+        border-radius: 50px 50px 0px 0px;
+        border-bottom: 10%;
+    }
+    h1{
+        text-align:center;
+    }
+    .p1{
+        text-align:center;
+    }
+    .annual-plan{
+        display:flex;
+        width:90%;
+       border-radius: 10%;
+        margin-left: 5%;
+        background-color: aliceblue;
+    }
+    #music{
+        width: 90%;
+        padding-left: 20%;
+        padding-top: 35%;
+    }
+    .space{
+        width: 20px;
+    }
+    #annual{
+        font-weight: bold;
+        text-align: center;
+    }
+    #annual > span{
+        font-weight: 300;
+    }
+    #amount{
+       
+    }
+    #change{
+        padding-left: 80%;
+        color:blue;
+        text-decoration: underline;
+        padding-top: 20%;
+        font-weight: bold;
+    }
+    .proceedPayment{
+        width:90%;
+        color:white;
+        background-color:blue;
+        margin: 25px auto;
+        height: 7vh;
+        text-align: center;
+        padding-top: 5%;
+        margin-bottom: 5%;
+        border-radius: 5%;
+        box-shadow: 50%;
+       
+    }
+    .cancelOrders{
+        font-size: bold;
+        font-weight: 700;
+        text-align: center;  
+    }
+}
+@media(min-width: 1024px){
+    main{
+        width: 40%;
+        margin: auto;
+        height: 90vh;
+        margin-top: 2%;
+        background-color: white;
+        border-radius: 50px 50px 0px 0px;
+    }
+    .space{
+        width: 30px;
+    }
+    #change{
+        padding-left: 70%;
+        margin-left: 70%;
+        color:blue;
+        text-decoration: underline;
+        padding-top: 20%;
+        font-weight: bold;
+    }
+}
+@media(min-width: 1440px){
+    main{
+        width: 30%;
+        margin: auto;
+        height: 90vh;
+        margin-top: 2%;
+        background-color: white;
+        border-radius: 50px 50px 0px 0px;
+    }
+    .space{
+        width: 30px;
+    }
+    #change{
+        padding-left: 70%;
+        margin-left: 70%;
+        color:blue;
+        text-decoration: underline;
+        padding-top: 20%;
+        font-weight: bold;
+    }
+}
