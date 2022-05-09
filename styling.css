@@ -1,5 +1,5 @@
 html{
-    background-color:hsl(225, 100%, 98%);
+    background-color:hsl(229, 9%, 53%);
 }
 main{
     width: 90%;
@@ -43,18 +43,17 @@ h1{
 #annual > span{
     font-weight: 300;
 }
-#amount{
-   
-}
+
 #change{
     padding-left: 70%;
     color:blue;
-    text-decoration: underline;
+    text-decoration: dotted;
     padding-top: 20%;
     font-weight: bold;
     cursor: pointer;
 }
 .proceedPayment{
+    font-size: larger;
     width:90%;
     color:white;
     background-color:blue;
